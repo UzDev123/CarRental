@@ -58,24 +58,7 @@ fun RegistrationScreen(navHostController: NavHostController) {
                     contentColor = Color.White,
                 )
             ) {
-                Text(text = "Sign Up With Google", color = Color.White)
-            }
-            Button(
-                onClick = { /*TODO*/ },
-
-                modifier = Modifier
-                    .padding(4.dp)
-                    .shadow(4.dp, shape = RoundedCornerShape(32.dp), clip = false)
-                    .fillMaxWidth(0.9f)
-                    .alpha(0.8f)
-                    .align(Alignment.CenterHorizontally),
-                shape = RoundedCornerShape(32.dp),
-                colors = ButtonDefaults.buttonColors(
-                    backgroundColor = ColorSplashBack,
-                    contentColor = ColorSignUp,
-                )
-            ) {
-                Text(text = "Sign Up With Other", color = Color.LightGray)
+                Text(text = "Sign Up", color = Color.White)
             }
 
             Text(
